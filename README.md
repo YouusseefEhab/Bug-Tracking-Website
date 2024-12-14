@@ -130,3 +130,31 @@ This table contains Messages sent to Customers
 	<li>Receiver ID (Foreign Key -> Users.ID)</li>
 	<li>Bug ID (Foreign Key -> Bugs.ID)</li>
 </ul>
+
+<\ul> 
+### Wome instractions to can work on website 
+
+install xampp:
+https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-windows-x64-8.2.12-0-VS16-installer.exe/download
+
+install winget:
+https://apps.microsoft.com/detail/9nblggh4nns1?rtc=1&hl=en-eg&gl=EG#activetab=pivot:overviewtab
+
+install git:
+winget install --id Git.Git -e --source winget
+
+download Project:
+cd C:\xampp\htdocs
+git clone https://github.com/YouusseefEhab/Bug-Tracking-Website.git
+cd Bug-Tracking-Website
+
+Import Database:
+go to localhost/phpmyadmin
+create new database "mydb"
+import in mydb from Bug-Tracking-Website/DB-Backup/mydb.sql
+
+run Project:
+go to localhost/Bug-Tracking-WebApp
+
+
+</ul>
