@@ -132,7 +132,7 @@ This table contains Messages sent to Customers
 </ul>
 
 <\ul> 
-### Wome instractions to can work on website 
+### Some instractions to can work on website 
 
 install xampp:
 https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.2.12/xampp-windows-x64-8.2.12-0-VS16-installer.exe/download
